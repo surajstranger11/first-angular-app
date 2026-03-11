@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(cmd /c \"gh --version 2>&1 && echo done\")",
-      "Bash(cmd /c \"where gh\")"
+      "Bash(cmd /c \"where gh\")",
+      "Bash(cmd /c \"git config user.name & git config user.email & git config credential.helper\")"
     ]
   }
 }

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd /c \"gh --version 2>&1 && echo done\")",
+      "Bash(cmd /c \"where gh\")"
+    ]
+  }
+}
